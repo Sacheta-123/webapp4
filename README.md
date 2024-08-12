@@ -16,7 +16,7 @@ This is used in the demonstration of the development of Ansible Playbooks.
   apt-get install -y python3 python3-setuptools python3-dev build-essential python3-pip default-libmysqlclient-dev
   ```
    
-## 2. Install and Configure Web Server
+## 2. Install and Configure Web Server.
 
 Install Python Flask dependency
 ```bash
