@@ -4,19 +4,19 @@ app = Flask(__name__)
 
 @app.route("/")
 def main():
-    return "Welcome to webhooks!"
+    return "Vanakkam Da Mappala, Medavakkathula irundhu 😎🤠😈"
 
 @app.route('/how-are-you')
 def how_are_you():
-    return 'I am good, how about you? This is my new update to the app.py to test the OpenShift Webhooks'
+    return 'Nalla irukken da Mappla, goyyala nee epudi irukka 🤔'
 
 @app.route('/test')
 def test():
-    return "Well, the test works!!!"
+    return "Tha test work aayduchu da maapla 🥳🎉💃"
 
 @app.route('/hey')
 def hey():
-    return "Hey! LOL I'm working on a Python code 🤣🤣🤣"
+    return "Ena da Mappla ey nu koopudra 😒. Thakkali aruthu potruven rascolu 🤬😡😠"
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)
