@@ -14,5 +14,9 @@ def how_are_you():
 def test():
     return "Well, the test works!!!"
 
+@app.route('/hey')
+def hey():
+    return "Hey! LOL I'm working on a Python code 🤣🤣🤣"
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)
