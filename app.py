@@ -8,11 +8,11 @@ def main():
 
 @app.route('/how-are-you')
 def how_are_you():
-    return 'Nalla irukken da Mappla, goyyala nee epudi irukka 🤔'
+    return 'Nalla irukken da Mappla 😁😁❤️❤️'
 
 @app.route('/test')
 def test():
-    return "Tha test work aayduchu da maapla 🥳🎉💃"
+    return "Tha test work aayduchu da maapla (❁´◡`❁)☆*: .｡. o(≧▽≦)o .｡.:*☆(●'◡'●)╰(*°▽°*)╯"
 
 @app.route('/hey')
 def hey():
