@@ -6,6 +6,10 @@ app = Flask(__name__)
 def main():
     return "Vanakkam Da Mappla, Medavakkathula irundhu 😎🤠😈😁🥳🎉❤️"
 
+@app.route('/adei')
+def adei():
+    return 'Ena mayilu sirichikittu kanda meniku morachikitu 😡🤬😒😈😠'
+
 @app.route('/how-are-you')
 def how_are_you():
     return 'Nalla irukken da Mappla 😁😁❤️❤️'
