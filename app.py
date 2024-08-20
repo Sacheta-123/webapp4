@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def main():
-    return "Vanakkam Da Mappla, Medavakkathula irundhu 😎🤠😈😁🥳🎉❤️"
+    return "Vanakkam Da Maxy, Medavakkathula irundhu 😎🤠😈😁🥳🎉❤️"
 
 @app.route('/adei')
 def adei():
