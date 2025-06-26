@@ -1,0 +1,15 @@
+@startuml
+class User {
+  -username: str
+  -password: str
+  +login(): bool
+}
+
+class Item {
+  -name: str
+  -description: str
+  +create(): void
+}
+
+User "1" --> "*" Item : creates
+@enduml
