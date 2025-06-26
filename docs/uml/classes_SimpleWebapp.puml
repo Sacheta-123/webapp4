@@ -1,0 +1,31 @@
+@startuml class_diagram
+
+class User {
+  - id: int
+  - username: str
+  - password: str
+  + is_authenticated(): bool
+}
+
+class Item {
+  - id: int
+  - title: str
+  - description: str
+  + save(): void
+}
+
+class AuthController {
+  + login(username: str, password: str): bool
+  + logout(): void
+}
+
+class ItemController {
+  + create_item(data): Item
+  + get_item_by_id(item_id: int): Item
+}
+
+User "1" -- "0..*" Item : owns
+AuthController --> User : authenticates
+ItemController --> Item : manages
+
+@enduml
