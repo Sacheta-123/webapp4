@@ -18,7 +18,7 @@ def login():
         password = request.form["password"]
         if username == "admin" and password == "admin":
             return redirect("/dashboard")
-        return "Login Failed"
+        return "Login failed"
     return render_template_string("""
         <form method="POST">
             <input name="username" placeholder="Username"><br>
