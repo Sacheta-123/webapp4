@@ -1,0 +1,12 @@
+@startuml
+actor User
+participant "Login Page" as LP
+participant "Auth Controller" as AC
+participant "Database" as DB
+
+User -> LP: Input username & password
+LP -> AC: Submit login()
+AC -> DB: Check credentials
+DB --> AC: Valid / Invalid
+AC --> LP: Redirect or show error
+@enduml
