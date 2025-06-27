@@ -1,0 +1,107 @@
+{
+  "id": "74417e5a-3b64-4741-ba79-e9bb5094c24c",
+  "version": "2.0",
+  "name": "Login Test 2",
+  "url": "https://reimagined-lamp-wr9vj4qjgx47cwpv-8080.app.github.dev/login",
+  "tests": [{
+    "id": "3e387499-df2f-44ec-b909-502e620efb3e",
+    "name": "Untitled",
+    "commands": [{
+      "id": "edb35070-2982-4468-a921-d1504c4ee784",
+      "comment": "",
+      "command": "open",
+      "target": "https://reimagined-lamp-wr9vj4qjgx47cwpv-8080.app.github.dev/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "180d94b9-7652-41da-b540-d159be5ad64e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x692",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b954e587-310c-4777-a9bf-e02883567b1b",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6449a68-c7f8-4af7-b0eb-7b848a907b97",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "3e37afb5-a88d-4a52-badd-b421e4542072",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5105190-9a67-4761-9d03-967124e77626",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "2cec2b09-ed7a-42ac-a1fc-5925d7e7f247",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd837ab6-7b65-43bc-a8e6-41d65ebc0ba9",
+      "comment": "",
+      "command": "click",
+      "target": "name=item",
+      "targets": [
+        ["name=item", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='item']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "80d5a14d-44ad-4eb4-9f90-2bd19bf50bf2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3e387499-df2f-44ec-b909-502e620efb3e"]
+  }],
+  "urls": [],
+  "plugins": []
+}
