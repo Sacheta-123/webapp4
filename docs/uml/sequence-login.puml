@@ -1,0 +1,13 @@
+@startuml
+actor User
+participant "LoginController" as LC
+participant "AuthService" as AS
+participant "Database" as DB
+
+User -> LC : input(username, password)
+LC -> AS : validate()
+AS -> DB : query user
+DB --> AS : user found
+AS --> LC : success/fail
+LC --> User : login result
+@enduml
