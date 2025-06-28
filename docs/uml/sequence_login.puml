@@ -1,0 +1,17 @@
+@startuml sequence_login
+actor User
+participant "AuthController" as AC
+database "Database" as DB
+entity "User Model" as UM
+
+User -> AC: POST /login (username, password)
+AC -> DB: Query user by username
+DB --> AC: User data
+AC -> UM: Validate password
+UM --> AC: True/False
+alt Valid
+    AC -> User: Redirect to Dashboard
+else Invalid
+    AC -> User: Show error message
+end
+@enduml

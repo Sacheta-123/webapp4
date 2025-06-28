@@ -1,0 +1,13 @@
+@startuml sequence_item
+actor User
+participant "ItemController" as IC
+database "Database" as DB
+entity "Item Model" as IM
+
+User -> IC: POST /item/new (title, description)
+IC -> IM: Create Item(data)
+IM -> DB: INSERT item
+DB --> IM: Success
+IM --> IC: Item Created
+IC -> User: Redirect to item page
+@enduml
