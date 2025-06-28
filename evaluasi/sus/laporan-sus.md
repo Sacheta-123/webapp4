@@ -1,39 +1,34 @@
-# 📊 Laporan Usability (SUS) – SIMPLE1 App
+# Laporan Usability (SUS) – SIMPLE1 App
 
 ## 🔗 URL Aplikasi
 https://farewell23-8080.app.github.dev
 
 ## 🧾 Jumlah Responden
-5 responden
+3 orang
 
-## 📈 Rata-rata Skor SUS
-**75.0**
+## 📈 Skor Per Responden
+- R1: 30.0
+- R2: 50.0
+- R3: 30.0
 
-## 🎯 Interpretasi Skor SUS
-**Good** (masuk dalam kategori 70–84)
+## 📊 Rata-rata Skor SUS
+**36.67**
 
----
-
-## 📋 Penjelasan Skor
-
-- Pertanyaan ganjil dihitung dengan rumus: Skor = Jawaban - 1
-- Pertanyaan genap dihitung dengan rumus: Skor = 5 - Jawaban
-- Total skor dikali 2.5 → menghasilkan skor SUS dari 0–100
+## 🎯 Interpretasi
+**Poor** (pengguna merasa cukup sulit atau tidak nyaman menggunakan aplikasi)
 
 ---
 
-## 📎 Rangkuman Pendapat Responden
-- Mayoritas pengguna merasa aplikasi **mudah digunakan**
-- Navigasi dianggap cukup jelas
-- Ada saran tampilan dapat dibuat **lebih modern**
+## 📝 Catatan Tambahan
+- Beberapa responden kemungkinan merasa:
+  - Navigasi membingungkan
+  - Antarmuka kurang intuitif
+  - Validasi atau feedback tidak jelas
+- Aplikasi masih perlu **peningkatan signifikan** dalam kemudahan penggunaan
 
 ---
 
-## 📊 Rekomendasi Perbaikan
-- Tambahkan indikator validasi input
-- Perjelas feedback setelah submit data
-- Gunakan warna atau icon untuk memperjelas aksi tombol
-
----
-
-*Laporan ini disusun sebagai bagian dari UAS Rekayasa Perangkat Lunak 2025.*
+## 📌 Rekomendasi
+- Tambahkan feedback visual saat login / tambah data
+- Perbaiki struktur navigasi
+- Gunakan ikon, label, dan warna yang konsisten
