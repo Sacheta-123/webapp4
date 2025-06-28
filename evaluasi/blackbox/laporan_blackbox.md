@@ -11,7 +11,7 @@ Melakukan pengujian terhadap fitur Login, Tambah Data, dan Logout menggunakan Se
 5. Menekan tombol Logout
 
 ## Hasil Pengujian
-✅ Semua fitur berjalan dengan baik:
+ Semua fitur berjalan dengan baik:
 - Login: berhasil
 - Tambah data: berhasil
 - Logout: berhasil
