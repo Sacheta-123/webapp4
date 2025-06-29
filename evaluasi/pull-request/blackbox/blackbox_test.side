@@ -1,0 +1,219 @@
+{
+  "id": "f0cc3a3c-3756-41c4-b840-a7b76891999a",
+  "version": "2.0",
+  "name": "BlackboxTest",
+  "url": "https://musical-orbit-v6ggwwr7j5vpcx5g5-5000.app.github.dev",
+  "tests": [{
+    "id": "d8dbcc04-7dae-4d8c-81e1-18dcf1ef3343",
+    "name": "blacboxtest",
+    "commands": [{
+      "id": "529828f6-aabc-4c75-af03-64aa6d3fbfeb",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0814ce74-32c9-44e4-8891-cd0ca5aab66b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d67fa136-0241-4a79-b76c-45890b029419",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "357a75a0-7c1c-4e9d-a763-9a5e5eb6a811",
+      "comment": "",
+      "command": "click",
+      "target": "css=form",
+      "targets": [
+        ["css=form", "css:finder"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "74cd534c-7f2d-4c62-acdd-012b7713baaf",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f234b0f-f4de-4f45-8cd3-321512e8616e",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "6414d6a7-c871-4e29-87a9-da8a42caf573",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input:nth-child(6)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "88bcfaaf-e083-45dd-8396-804709ad90cc",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input:nth-child(6)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "admin123"
+    }, {
+      "id": "449cdba6-19c6-46a6-b190-ca2969899da2",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "07b52b82-9b29-4736-a0d3-dcecedade6ba",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tambah Item",
+      "targets": [
+        ["linkText=Tambah Item", "linkText"],
+        ["css=.button:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Tambah Item')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/create')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Tambah Item')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b62c302-03cb-46d2-8718-7104cfa8d621",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "799dd1e7-7a85-4298-917f-7f05f70433cf",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "kudalumping"
+    }, {
+      "id": "e48743fb-8d04-4585-a54b-b48994fa5e9b",
+      "comment": "",
+      "command": "click",
+      "target": "name=description",
+      "targets": [
+        ["name=description", "name"],
+        ["css=input:nth-child(6)", "css:finder"],
+        ["xpath=//input[@name='description']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2668910a-8a18-4292-bc41-6f2bf022d28f",
+      "comment": "",
+      "command": "type",
+      "target": "name=description",
+      "targets": [
+        ["name=description", "name"],
+        ["css=input:nth-child(6)", "css:finder"],
+        ["xpath=//input[@name='description']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "asliwonogiri"
+    }, {
+      "id": "a5c83a42-4171-47d0-9135-cf48b13f552d",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Simpan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3a14603-9eed-43ad-8edf-35a41d478f4a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Kembali ke Dashboard",
+      "targets": [
+        ["linkText=Kembali ke Dashboard", "linkText"],
+        ["css=a", "css:finder"],
+        ["xpath=//a[contains(text(),'Kembali ke Dashboard')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/dashboard')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Kembali ke Dashboard')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a8a5c9f-5f58-4d1c-8c4c-11916b07dd91",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=.button:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/logout')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1584523a-6821-4259-bf74-26b19bec3f2f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d8dbcc04-7dae-4d8c-81e1-18dcf1ef3343"]
+  }],
+  "urls": ["https://musical-orbit-v6ggwwr7j5vpcx5g5-5000.app.github.dev/"],
+  "plugins": []
+}
