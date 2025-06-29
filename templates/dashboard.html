@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <style>
+    body { font-family: Arial; padding: 20px; }
+    .button {
+      background-color: #28a745;
+      color: white;
+      padding: 10px 16px;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-right: 10px;
+    }
+    .button:hover {
+      background-color: #218838;
+    }
+  </style>
+</head>
+<body>
+  <h2>Selamat Datang, {{ session['user'] }}</h2>
+
+  <a class="button" href="{{ url_for('create') }}">Tambah Item</a>
+  <a class="button" href="{{ url_for('logout') }}">Logout</a>
+
+  <h3>Daftar Item:</h3>
+  <ul>
+    {% for item in items %}
+      <li><strong>{{ item['name'] }}</strong>: {{ item['description'] }}</li>
+    {% else %}
+      <li>Belum ada item.</li>
+    {% endfor %}
+  </ul>
+</body>
+</html>

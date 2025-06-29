@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tambah Item</title>
+</head>
+<body>
+  <h2>Form Tambah Item</h2>
+  <form method="POST">
+      <label>Nama Item:</label>
+      <input type="text" name="name" required><br><br>
+      <label>Deskripsi:</label>
+      <input type="text" name="description" required><br><br>
+      <button type="submit">Simpan</button>
+  </form>
+  <br>
+  <a href="{{ url_for('dashboard') }}">Kembali ke Dashboard</a>
+</body>
+</html>
