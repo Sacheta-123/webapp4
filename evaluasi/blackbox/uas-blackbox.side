@@ -1,0 +1,196 @@
+{
+  "id": "2c332850-1619-4fcb-b28e-298b6d9f6ed2",
+  "version": "2.0",
+  "name": "uas-rpl-test",
+  "url": "https://fictional-system-7vr75gwr75r72xr6w-5000.app.github.dev",
+  "tests": [{
+    "id": "28bfa88b-cc53-4ab2-a427-01063482dfbe",
+    "name": "uas-blackbox.side",
+    "commands": [{
+      "id": "3b4b3666-8522-4e49-aebb-2808a291459d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "053b110c-81a4-4b45-ad2b-24c79ac36c5c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "62ba2501-9c76-4b9c-aed7-64b081723e36",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc5e904b-679b-4ae4-b2dc-e4427416aa8e",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f41577d-2584-4b78-b442-b62eb0701c59",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "749d724d-b5d3-4e5e-80b5-976e87eb0be3",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba45c61f-2ca9-49bd-8ffd-920f6dbe1605",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c28c12ec-3ddf-4a01-b2b5-257dec9dc67f",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "70016744-16fb-4781-a45e-a4b9368a38a5",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "1d92909f-78e0-42cd-873c-706e3e7b4f31",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(5)",
+      "targets": [
+        ["css=input:nth-child(5)", "css:finder"],
+        ["xpath=//input[@value='Login']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea852a1c-3210-49bb-887e-b0b9339c9a20",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(3) > button",
+      "targets": [
+        ["css=a:nth-child(3) > button", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Tambah Item')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "43614014-15cd-46ca-bb62-28348221dd59",
+      "comment": "",
+      "command": "click",
+      "target": "name=item_name",
+      "targets": [
+        ["name=item_name", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='item_name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6545db80-e2f8-4f77-8477-d8902270f3df",
+      "comment": "",
+      "command": "type",
+      "target": "name=item_name",
+      "targets": [
+        ["name=item_name", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='item_name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "buaya1"
+    }, {
+      "id": "5cbecf03-669c-4fbf-bd0b-2f1e14378151",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(2)",
+      "targets": [
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@value='Simpan']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4fbbdbf-c06a-47ca-b16e-12fd2e3ff935",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Kembali ke Dashboard')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "62dbfd5c-9508-49c4-a368-76dc86db9365",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(4) > button",
+      "targets": [
+        ["css=a:nth-child(4) > button", "css:finder"],
+        ["xpath=//a[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "440e355b-71fa-47ca-bb52-e2a611fcaa10",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["28bfa88b-cc53-4ab2-a427-01063482dfbe"]
+  }],
+  "urls": ["https://fictional-system-7vr75gwr75r72xr6w-5000.app.github.dev/"],
+  "plugins": []
+}
