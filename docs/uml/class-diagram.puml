@@ -1,0 +1,35 @@
+@startuml
+
+class User {
+    +id: int
+    +username: str
+    +email: str
+    +password: str
+}
+
+class RegisterForm {
+    +username: str
+    +email: str
+    +password: str
+    +submit(): void
+}
+
+class LoginForm {
+    +username: str
+    +password: str
+    +submit(): void
+}
+
+class Item {
+    +id: int
+    +name: str
+    +description: str
+    +price: float
+    +create(): void
+}
+
+User "1" --> "*" Item : owns
+RegisterForm ..> User : <<uses>>
+LoginForm ..> User : <<uses>>
+
+@enduml
