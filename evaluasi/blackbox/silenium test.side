@@ -1,0 +1,174 @@
+{
+  "id": "4b8019c9-4ecf-4fe8-bfe6-39cfd438e0ff",
+  "version": "2.0",
+  "name": "flask-test",
+  "url": "https://opulent-space-palm-tree-wr4459g9qj7v3gp94-8080.app.github.dev",
+  "tests": [{
+    "id": "eec55dc4-17a1-4126-b128-7d6f0ff004f2",
+    "name": "Untitled",
+    "commands": [{
+      "id": "c253cbe7-e633-4172-8935-1a5f34553b77",
+      "comment": "",ls evaluasi/blackbox/
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fe2a07ae-075c-4113-bf6a-608b3ae22a21",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1295x735",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6eff7681-4b2f-43d1-90bb-52d0578dcad6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "61b7cc8f-a512-4e84-bc80-6ab7d0e94979",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"],
+        ["xpath=//html[contains(.,'selamat datang di akun milik iqbal yusanta a710230023')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a493674-bf9e-42f2-a6e0-e30ee6e4fcd8",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "14de127d-c9d8-4f8c-944f-4dd4d6cef3f0",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "43bc8836-5eea-45fa-a879-08b4d23b7a8f",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "90789e9f-28d4-4906-97ef-a3b5304cbee3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ke Halaman About",
+      "targets": [
+        ["linkText=Ke Halaman About", "linkText"],
+        ["css=.button", "css:finder"],
+        ["xpath=//a[contains(text(),'Ke Halaman About')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/about')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ke Halaman About')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1bdc3c01-9c90-4f02-bdaf-b0d0a7d690a4",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa942c46-85c2-4af0-bd8b-4c13c06311fd",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39817591-958f-4a9d-aa01-b15201630417",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ke Halaman About",
+      "targets": [
+        ["linkText=Ke Halaman About", "linkText"],
+        ["css=.button", "css:finder"],
+        ["xpath=//a[contains(text(),'Ke Halaman About')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/about')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ke Halaman About')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "845ae73f-f855-473a-8b26-40a5460dd195",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb81d979-5283-4104-9363-fc592791291f",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93de2420-fd65-415d-8eba-3bb56227d45a",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "144a06b2-96d7-44db-9eef-959b3b052012",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=⬅️ Kembali ke Beranda",
+      "targets": [
+        ["linkText=⬅️ Kembali ke Beranda", "linkText"],
+        ["css=a", "css:finder"],
+        ["xpath=//a[contains(text(),'⬅️ Kembali ke Beranda')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'⬅️ Kembali ke Beranda')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b95dbb8f-d4eb-44d3-95f5-3928c7fb231a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["eec55dc4-17a1-4126-b128-7d6f0ff004f2"]
+  }],
+  "urls": ["https://opulent-space-palm-tree-wr4459g9qj7v3gp94-8080.app.github.dev/"],
+  "plugins": []
+}

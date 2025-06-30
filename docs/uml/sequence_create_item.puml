@@ -1,0 +1,12 @@
+@startuml
+actor User
+participant "Create Page" as CP
+participant "Item Controller" as IC
+participant "Database" as DB
+
+User -> CP: Fill item form
+CP -> IC: Submit create_item()
+IC -> DB: Save to database
+DB --> IC: Success
+IC --> CP: Show confirmation
+@enduml

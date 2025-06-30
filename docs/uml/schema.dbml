@@ -1,0 +1,12 @@
+Table users {
+  id int [pk]
+  username varchar
+  password varchar
+}
+
+Table items {
+  id int [pk]
+  name varchar
+  description text
+  user_id int [ref: > users.id]
+}

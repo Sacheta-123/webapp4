@@ -1,0 +1,45 @@
+Hasil Usability Study (SUS)
+Nama: Nur Muhammad Iqbal Yusanta
+NIM: A710230023
+Jawaban Responden
+Ini nih data mentah dari 5 orang yang ngisi survei. Masing-masing ngejawab 10 pertanyaan dengan skala 1 sampai 5:
+A,4,2,4,2,5,2,5,1,5,2
+B,3,3,3,3,4,3,4,2,3,3
+C,5,1,4,1,5,1,4,2,5,2
+D,4,2,4,2,4,2,4,2,4,2
+E,5,1,5,2,5,2,5,1,5,2
+Cara Hitung Skor SUS (Simple Banget!)
+- Kalau nomornya ganjil (1, 3, 5, 7, 9): kurangi skor dengan 1.
+- Kalau genap (2, 4, 6, 8, 10): 5 dikurangin sama skornya.
+- Abis itu dijumlahin semua nilainya, terus dikali 2.5. Nah, itu deh skor akhirnya.
+Hitung-Hitungannya
+Responden A
+Ganjil: (4−1)+(4−1)+(5−1)+(5−1)+(5−1) = 18
+Genap: (5−2)+(5−2)+(5−2)+(5−1)+(5−2) = 16
+Total = 34 × 2.5 = 85
+Responden B
+Ganjil: 2+2+3+3+2 = 12
+Genap: 2+2+2+3+2 = 11
+Total = 23 × 2.5 = 57.5
+Responden C
+Ganjil: 4+3+4+3+4 = 18
+Genap: 4+4+3+3+3 = 17
+Total = 35 × 2.5 = 87.5
+Responden D
+Ganjil: 3×5 = 15
+Genap: 3×5 = 15
+Total = 30 × 2.5 = 75
+Responden E
+Ganjil: 4×5 = 20
+Genap: 4+3+3+4+3 = 17
+Total = 37 × 2.5 = 92.5
+Tabel Skor SUS
+Responden	Skor SUS
+A	85
+B	57.5
+C	87.5
+D	75
+E	92.5
+Rata-rata	79.5
+Kesimpulan
+Kalau kita ambil rata-rata, skornya 79.5. Ini udah masuk kategori “Bagus Banget” alias Excellent. Artinya, aplikasi Flask yang kita buat udah oke dan gampang dipake menurut para responden. Mantap!
