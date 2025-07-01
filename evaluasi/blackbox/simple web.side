@@ -1,0 +1,47 @@
+{
+  "id": "5654adb7-d0c2-44e2-91d9-b0e175d1ad22",
+  "version": "2.0",
+  "name": "simple web",
+  "url": "https://solid-acorn-5ww9g5xr5vrhv47p-8080.app.github.dev",
+  "tests": [{
+    "id": "bd0508ed-aa03-4542-92d2-13a29ef04d16",
+    "name": "uji d",
+    "commands": [{
+      "id": "7967f27f-bf5a-48f2-a8c2-dec91797f44e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "63dfd919-2c66-46cc-9b9f-ca071a45e8ff",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x692",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "92f01a9b-7561-49ff-aa93-4909c2fbbb94",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2ba0c13e-2984-4e45-8f38-e1988a8b4a2f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["bd0508ed-aa03-4542-92d2-13a29ef04d16"]
+  }],
+  "urls": ["https://solid-acorn-5ww9g5xr5vrhv47p-8080.app.github.dev/"],
+  "plugins": []
+}
