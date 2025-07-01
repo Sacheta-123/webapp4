@@ -1,0 +1,47 @@
+{
+  "id": "c36b09ed-ee61-41a7-8109-642d579f025a",
+  "version": "2.0",
+  "name": "Project Pencarian Lokasi",
+  "url": "https://fantastic-goldfish-q79vrqjr5vrr2x4qq-8080.app.github.dev",
+  "tests": [{
+    "id": "d0de33e7-31aa-41fc-8e84-c908f5b13f01",
+    "name": "Uji coba",
+    "commands": [{
+      "id": "0f197ec0-4bdf-4276-8ea3-114bae58fc5c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "534ece40-8715-48a7-880b-83aed117deea",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1616x868",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "719228e2-ec75-4106-8e09-e1c424fec6ca",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "234c9c95-79d2-479b-978c-2cc802f30991",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d0de33e7-31aa-41fc-8e84-c908f5b13f01"]
+  }],
+  "urls": ["https://fantastic-goldfish-q79vrqjr5vrr2x4qq-8080.app.github.dev/"],
+  "plugins": []
+}
