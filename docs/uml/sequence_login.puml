@@ -1,0 +1,19 @@
+@startuml
+actor User
+participant WebBrowser
+participant FlaskApp
+participant AuthService
+participant Database
+
+User -> WebBrowser : buka halaman login
+WebBrowser -> FlaskApp : GET /login
+FlaskApp -> WebBrowser : tampilkan form
+
+User -> WebBrowser : isi username dan password
+WebBrowser -> FlaskApp : POST /validateLogin
+FlaskApp -> AuthService : validasi login
+AuthService -> Database : ambil data user
+Database --> AuthService : data user
+AuthService --> FlaskApp : hasil validasi
+FlaskApp -> WebBrowser : redirect ke dashboard / error
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+actor Admin
+participant WebBrowser
+participant FlaskApp
+participant ItemService
+participant Database
+
+Admin -> WebBrowser : buka halaman create item
+WebBrowser -> FlaskApp : GET /item/create
+FlaskApp -> WebBrowser : tampilkan form
+
+Admin -> WebBrowser : submit data item
+WebBrowser -> FlaskApp : POST /item/create
+FlaskApp -> ItemService : validasi data
+ItemService -> Database : simpan item
+Database --> ItemService : sukses
+ItemService --> FlaskApp : status OK
+FlaskApp -> WebBrowser : tampilkan pesan sukses
+@enduml
